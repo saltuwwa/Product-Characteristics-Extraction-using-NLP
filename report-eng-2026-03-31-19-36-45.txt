@@ -1,0 +1,23 @@
+Validation report for Product Extraction assignment
+Dataset: eng dataset
+Rows in result: 46
+
+Quality report:
+ - ID: 46/46 (100.0%)
+ - Product Name: 46/46 (100.0%)
+ - Quantity, pcs, Unit: 46/46 (100.0%)
+ - Voltage, V: 29/46 (63.0%)
+ - Capacity: 7/46 (15.2%)
+ - Length (Height), mm: 28/46 (60.9%)
+ - Width, mm: 29/46 (63.0%)
+ - Height, mm: 27/46 (58.7%)
+ - Diameter: 0/46 (0.0%)
+ - Weight g/kg: 14/46 (30.4%)
+
+TZ checklist:
+ - [OK] Folder scan: 5 files found, 5 supported files processed.
+ - [OK] Output columns: 10 required columns written in English.
+ - [OK] Target filtering: only lamps/lights and batteries/accumulators included.
+ - [OK] Intelligent column mapping: TF-IDF cosine + fuzzy string matching + rule bonus.
+ - [OK] Multi-column parsing: regex/rule-based extraction for voltage/capacity/dimensions/diameter/weight.
+ - [OK] Consolidation: one final Excel file for all files in selected folder.

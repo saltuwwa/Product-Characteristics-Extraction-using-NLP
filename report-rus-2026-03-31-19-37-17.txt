@@ -1,0 +1,23 @@
+Validation report for Product Extraction assignment
+Dataset: rus dataset
+Rows in result: 46
+
+Quality report:
+ - ID: 46/46 (100.0%)
+ - Наименование товара: 46/46 (100.0%)
+ - Количество, шт, Ед. Измерения: 46/46 (100.0%)
+ - Напряжение, В: 37/46 (80.4%)
+ - Емкость: 0/46 (0.0%)
+ - Длина (высота), мм: 26/46 (56.5%)
+ - Ширина, мм: 27/46 (58.7%)
+ - Высота, мм: 25/46 (54.3%)
+ - Диаметр: 0/46 (0.0%)
+ - Вес г/кг: 1/46 (2.2%)
+
+TZ checklist:
+ - [OK] Folder scan: 5 files found, 5 supported files processed.
+ - [OK] Output columns: 10 required columns written in Russian.
+ - [OK] Target filtering: only lamps/lights and batteries/accumulators included.
+ - [OK] Intelligent column mapping: TF-IDF cosine + fuzzy string matching + rule bonus.
+ - [OK] Multi-column parsing: regex/rule-based extraction for voltage/capacity/dimensions/diameter/weight.
+ - [OK] Consolidation: one final Excel file for all files in selected folder.

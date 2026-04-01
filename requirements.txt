@@ -1,0 +1,6 @@
+pandas
+python-docx
+pdfplumber
+openpyxl
+scikit-learn
+rapidfuzz
